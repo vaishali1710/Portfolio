@@ -1,0 +1,53 @@
+.footer {
+  padding: 1.5vh;
+  margin-top: 2rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contactmetext {
+  font-size: 2rem;
+  font-weight: 650;
+}
+
+.contactmetext2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mail {
+  background: #ff4500;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.mailbtn {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #6e1e00;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.mail:active .mailbtn {
+  transform: translateY(-2px);
+}
+
+.contacticons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.copyright {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+}

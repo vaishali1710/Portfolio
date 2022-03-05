@@ -6,6 +6,7 @@ import Home1 from "../images/homeautomation1.PNG";
 import Home2 from "../images/homeautomation2.jpeg";
 import Commg from "../images/Commg.jpeg";
 import video1 from "../images/Commg.mp4";
+import video2 from "../images/Commg2.mp4";
 
 function Project() {
   return (
@@ -47,7 +48,13 @@ function Project() {
             <div style={{margin: "0.6rem"}}>
               <video
                 src={video1}
-                width="600"
+                width="500"
+                height="250"
+                controls="controls"
+              />
+                  <video
+                src={video2}
+                width="500"
                 height="250"
                 controls="controls"
               />

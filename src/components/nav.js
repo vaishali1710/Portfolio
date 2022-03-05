@@ -39,9 +39,9 @@ function Nav() {
         </a>
       </div>
       <div className="navtoggle">
-        <button className="navtheme" >
-  {/*colorMode === "light" ? <BsFillSunFill /> : <FaMoon /> */}
-        </button>
+      {/*  <button className="navtheme" >
+  colorMode === "light" ? <BsFillSunFill /> : <FaMoon /> 
+  </button> */}
         <div className="hamburgermenu">
           <button
             style={{ fontSize: "1.3rem" }}

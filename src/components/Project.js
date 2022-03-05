@@ -45,21 +45,24 @@ function Project() {
                 </a>
               </div>
             </div>
-            <div style={{margin: "0.6rem"}}>
+            
+          </div>
+          <div style={{margin: "0.6rem 0rem", display: "flex", flexDirection: "row", justifyContent: "center"}}>
               <video
                 src={video1}
                 width="500"
                 height="250"
                 controls="controls"
+                style={{margin: "0rem 0.8rem"}}
               />
                   <video
                 src={video2}
                 width="500"
                 height="250"
                 controls="controls"
+                style={{margin: "0rem 0.8rem"}}
               />
             </div>
-          </div>
         </div>
       </div>
 

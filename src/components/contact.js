@@ -21,6 +21,7 @@ function Contact() {
               href="mailto:vaishalivaswani1710@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
+              style={{textDecoration: "None"}}
             > <span className="mailbtn">
               CONTACT ME </span>
             </a>
